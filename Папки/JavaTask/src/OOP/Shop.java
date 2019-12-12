@@ -139,7 +139,7 @@ class Main{
         String color = scan.next();
         int amount = Integer.parseInt(scan.next());
 
-        /*for (int i = 0; i < list.size(); i++) {
+        for (int i = 0; i < list.size(); i++) {
             if (list.get(i).getName().equals(name)){
                 if (list.get(i).getColor().equals(color)){
                     if (list.get(i).getAmount() >= amount){
@@ -151,7 +151,7 @@ class Main{
                     }
                 }
             }
-        }*/
+        }
     }
 
     public static void ActionSelection(){
@@ -217,19 +217,7 @@ class Main{
                 chooseAdd();
         }
     }
-    public static boolean chooseAdd(){
-        /*for (int i=0; i<list.size(); i++) {
-                 firstPlaceCell = placeList.get(i);
-                for (int j=i+1; j<placeList.size(); j++) {
-                    PlaceCell secondPlaceCell = placeList.get(j);
-                    if (firstPlaceCell.getX() == secondPlaceCell.getX()
-                            && firstPlaceCell.getY() == secondPlaceCell.getY()) {
-                        return true;
-                    }
-                }
-            }
-            return false;
-        }*/
+    public static void chooseAdd(){
         System.out.println("Воодите значения по очерёдности: " + "\n"
                 + "1.Телефон. " + "\n"
                 + "2.Цвет. " + "\n"
@@ -251,6 +239,6 @@ class Main{
             case 2:
                 Data();
         }
-        return false;
+
     }
 }

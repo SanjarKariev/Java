@@ -10,46 +10,25 @@ package lab9;
 
 public class ArrayException {
     static int arrSize = 4;
-    static String [][] arr = {{"6", "5", "8", "5"}, {"4", "7", "8", "0"},{"0", "6", "3", "5"},{"4","5","5","7"}};
-    static int sum;
+    static String [][] arr = {{"6", "5", "8", ",5"}, {"4", "7", "8", "0"}, {"1", "3", "6", "2"}, {"0", "6", "3", "5"}};
 
     public static void main(String[] args){
-        try {
-            CheckArr(arr);
-            System.out.println("correct");
-        }catch (MyArraySizeException e) {
-        }
-        System.out.println("____________________________________________");
-        try {
-            SumArr(arr);
-            System.out.println(sum);
-        } catch (MyArrayDataException e) {
-            System.out.println("Incorrect");
-        }
     }
 
     public static void CheckArr(String[][] arr) throws MyArraySizeException {
         if (arr.length != arrSize) {
-            System.out.println("Outside the array");
+            System.out.println("За пределами масива");
             throw new MyArraySizeException();
         }
         for (int i = 0; i < arr.length; i++) {
             if (arr[i].length != arrSize) {
-                System.out.println("incorrect");
+                System.out.println("Не коректный массив");
                 throw new MyArraySizeException();
             }
         }
     }
-    public static void SumArr(String[][] arr) throws MyArrayDataException {
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr.length; j++) {
-                if (isInteger(arr[i][j])){
-                    sum += Integer.parseInt(arr[i][j]);
-                }else {
-                    throw new MyArrayDataException();
-                }
-            }
-        }
+    public static void SumArr(String[][] arr){
+
     }
 
     static boolean isInteger(String arr) {
