@@ -1,7 +1,7 @@
 package lav13;
-/*Гантели*/
-public class Dumbbells extends Mass {
-    int mass;
+
+public class Mass {
+    private int mass;
 
     public int getMass() {
         return mass;
