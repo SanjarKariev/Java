@@ -27,6 +27,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
     <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -64,30 +65,38 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="574" y="116" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1589806465623" />
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589807301917">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="499" y="179" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1589807301917" />
     <state x="549" y="187" key="FileChooserDialogImpl" timestamp="1589794958238">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="187" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1589794958238" />
-    <state width="1493" height="335" key="GridCell.Tab.0.bottom" timestamp="1589806946638">
+    <state width="1493" height="335" key="GridCell.Tab.0.bottom" timestamp="1589808101063">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="335" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589806946638" />
-    <state width="1493" height="335" key="GridCell.Tab.0.center" timestamp="1589806946638">
+    <state width="1493" height="335" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1589808101063" />
+    <state width="1493" height="335" key="GridCell.Tab.0.center" timestamp="1589808101063">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="335" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1589806946638" />
-    <state width="1493" height="335" key="GridCell.Tab.0.left" timestamp="1589806946638">
+    <state width="1493" height="335" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1589808101063" />
+    <state width="1493" height="335" key="GridCell.Tab.0.left" timestamp="1589808101063">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="335" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1589806946638" />
-    <state width="1493" height="335" key="GridCell.Tab.0.right" timestamp="1589806946638">
+    <state width="1493" height="335" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1589808101063" />
+    <state width="1493" height="335" key="GridCell.Tab.0.right" timestamp="1589808101063">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="335" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1589806946638" />
-    <state x="465" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1589804458460">
+    <state width="1493" height="335" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1589808101063" />
+    <state x="277" y="75" key="SettingsEditor" timestamp="1589807499734">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1589804458460" />
+    <state x="277" y="75" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1589807499734" />
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1589807230058">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="465" y="256" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1589807230058" />
     <state x="425" y="197" width="672" height="677" key="run.anything.popup" timestamp="1589789779317">
       <screen x="0" y="0" width="1536" height="864" />
     </state>

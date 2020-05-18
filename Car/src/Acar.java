@@ -2,7 +2,7 @@ public class Acar extends Car   {
 
     public Acar(String vehicleType, String mark, int power, String model, int mileage) {
         super(vehicleType, mark, power, model, mileage);
-        super.setType(Nik.ACAR);
+        super.setType(сarType.ACAR);
     }
 
     @Override

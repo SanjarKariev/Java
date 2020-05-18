@@ -18,7 +18,7 @@ public class main {
         for (Car x : list){
             //System.out.println(x.getVehicleType() + " " + x.getMark() + " " + x.getPower() + " " + x.getModel() + " " + x.getMileage());
             n = 0;
-            if (x.getType() == Nik.ACAR){
+            if (x.getType() == Car.сarType.ACAR){
                 if(x.getPower() <= 100){
                     n = x.getPower() * 2.5;
                 }
@@ -36,7 +36,7 @@ public class main {
                 }
             }
 
-            if (x.getType() == Nik.BUS){
+            if (x.getType() == Car.сarType.BUS){
                 if(x.getPower() <= 200){
                     n = x.getPower() * 5;
                 }
@@ -45,7 +45,7 @@ public class main {
                 }
             }
 
-            if (x.getType() == Nik.SNOWMOBILE){
+            if (x.getType() == Car.сarType.SNOWMOBILE){
                 if(x.getPower() <= 50){
                     n = x.getPower() * 2.5;
                 }
