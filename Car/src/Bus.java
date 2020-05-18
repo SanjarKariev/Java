@@ -2,6 +2,7 @@ public class Bus extends Car{
 
     public Bus(String vehicleType, String mark, int power, String model, int mileage) {
         super(vehicleType, mark, power, model, mileage);
+        super.setType(Nik.BUS);
     }
 
     @Override

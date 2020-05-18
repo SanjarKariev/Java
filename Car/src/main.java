@@ -3,6 +3,7 @@ import java.util.ArrayList;
 public class main {
     public static void main(String[] args) {
         double n = 0;
+
         ArrayList<Car> list = new ArrayList<Car>();
         list.add(new Acar("Aca", "a", 56, "aa", 10));
         list.add(new Acar("Acar", "b", 140, "bb", 20));
@@ -17,7 +18,7 @@ public class main {
         for (Car x : list){
             //System.out.println(x.getVehicleType() + " " + x.getMark() + " " + x.getPower() + " " + x.getModel() + " " + x.getMileage());
             n = 0;
-            if (x.getClass() == Acar.class){
+            if (x.getType() == Nik.ACAR){
                 if(x.getPower() <= 100){
                     n = x.getPower() * 2.5;
                 }
@@ -35,7 +36,7 @@ public class main {
                 }
             }
 
-            if (x.getClass() == Bus.class){
+            if (x.getType() == Nik.BUS){
                 if(x.getPower() <= 200){
                     n = x.getPower() * 5;
                 }
@@ -44,7 +45,7 @@ public class main {
                 }
             }
 
-            if (x.getClass() == Snowmobile.class){
+            if (x.getType() == Nik.SNOWMOBILE){
                 if(x.getPower() <= 50){
                     n = x.getPower() * 2.5;
                 }

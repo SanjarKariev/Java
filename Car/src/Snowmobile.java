@@ -2,6 +2,7 @@ public class Snowmobile extends Car {
 
     public Snowmobile(String vehicleType, String mark, int power, String model, int mileage) {
         super(vehicleType, mark, power, model, mileage);
+        super.setType(Nik.SNOWMOBILE);
     }
 
     @Override
